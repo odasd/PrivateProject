@@ -48,7 +48,7 @@ public class chonghoController {
 		pm.setCri(cri);
 		pm.setTotalCount(mapper.totalCount(cri));
 		
-		model.addAttribute("pm", pm);
+		model.addAttribute("pmm", pm);
 		model.addAttribute("cri", cri);
 		model.addAttribute("userList", mapper.userList(cri));
 		model.addAttribute("testList", mapper.testList());
