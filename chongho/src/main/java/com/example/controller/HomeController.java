@@ -32,8 +32,14 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
+<<<<<<< HEAD
 		model.addAttribute("serverTime", formattedDate );
 		return "index";
+=======
+		
+		return "index2";
+
+>>>>>>> branch 'master' of https://github.com/odasd/PrivateProject.git
 	}
 	
 }
